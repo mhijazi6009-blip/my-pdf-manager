@@ -17,7 +17,7 @@ st.title("📁 عروض أسعار العملاء")
 with st.sidebar:
     st.header("إضافة عميل جديد")
     new_client = st.text_input("اسم العميل")
-    if st.button("➕ إنشاء مجلد"):
+    if st.button("إنشاء مجلد"):
         if new_client:
             path = os.path.join(BASE_DIR, new_client)
             if not os.path.exists(path):
