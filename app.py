@@ -5,13 +5,13 @@ import base64
 import time
 
 # إعدادات الصفحة
-st.set_page_config(layout="wide", page_title="مكتبة عروض الأسعار")
+st.set_page_config(layout="wide", page_title="عروض الأسعار")
 
 BASE_DIR = "clients_data"
 if not os.path.exists(BASE_DIR):
     os.makedirs(BASE_DIR)
 
-st.title("📁 نظام إدارة عروض أسعار العملاء")
+st.title("📁 عروض أسعار العملاء")
 
 # القائمة الجانبية
 with st.sidebar:
